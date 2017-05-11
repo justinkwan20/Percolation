@@ -1,0 +1,64 @@
+Justin Kwan
+1. Hours to complete the project: 30 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Percolation System & Union Find):
+   	In the beginning, I did not understand what Union Find was. I had to 
+   watch Swami’s explanation video multiple times.I also went to the SI hours 
+   and Kyler explained Percolation in more depth and demonstrated pseudo code,
+   so it was easier to understand. My peers also explained the purpose of the 
+   sink, source, and encode. I understood eventually discovered the formula 
+   that converted coordinates to numbers for encode.
+
+   Problem 2 (BackWash):
+	My second problem I encountered was backwash. I did not understand
+   how I could fix this issue since I encountered backwash with everything
+   I did. I learned from Kyler that in order to solve backwash we had to 
+   construct another Union Find Object in order to solve this issue. Even
+   though I knew that we had to construct another Union Find Object I still
+   didn’t understand how this would solve the issue. It was when my peer 
+   mentor for my FSC (Freshman Success Community) explained that this 
+   second Union Find was supposed to be a copy of the first, but the second
+   Union Find will not have a sink.
+   
+   Problem 3 (Percolation Stats):
+	After reading the checklist and the PDF I was a bit confused with 
+   percolation stats since I did not know how to approach it. I was when 
+   my peer mentor guided through it was when I fully understand how to do
+   it. The equation looked really complicated, but I broke it down into 
+   steps so it was easier to understand.
+   
+   Problem 4 (Percolation Stats returns 0’s):
+	My last problem was that when I would run Percolation Stats I would
+   get 0’s as my results after I modified Percolation. I knew that it was 
+   not my Stat’s class since I had checked everything before and it worked.
+   I solved this issue by undoing every issue one by one until I found the 
+   source of the problem. I was relieved when I did found the error.
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Kyler          - SI Instructor -  He explained in pseudo code 
+		                   how to do Percolation and hinted
+                                  that I needed two Union Find Objects
+
+   Ira           - FSC Mentor-    She clarified any details that I was 
+	  			    not sure of. She also helped me understand
+                                  BackWash problem.
+
+   Darian        - Peer-          He helped me with understanding encode and
+				    the purpose of the sink and the source.
+   
+
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I learned a lot from the project. I learned much about how to use Union Find
+   and find real uses for using Union Find.
